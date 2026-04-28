@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #f8fafc 0%, #dde7f0 100%);
+  color: #1a2930;
+}
+.home-layout {
+  max-width: 960px;
+  margin: auto;
+  padding: 32px;
+}
+.hero {
+  background: #ffffffcc;
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 28px rgba(26, 41, 48, 0.12);
+}
+.hero h1 {
+  margin-top: 0;
+}
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+.primary-button,
+.secondary-button {
+  padding: 14px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.primary-button {
+  background: #0f5ea8;
+}
+.secondary-button {
+  background: #1d9a6c;
+}
+.why {
+  margin-top: 32px;
+  background: #eaf4ff;
+  border-radius: 14px;
+  padding: 24px;
+}
+.why ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+@media (max-width: 640px) {
+  .button-row {
+    flex-direction: column;
+  }
+}
+
+.placeholder-iframe {
+  width: 100%;
+  min-height: 180px;
+  border: 2px dashed rgba(127, 184, 220, 0.95);
+  border-radius: 12px;
+  background: #f7fbff;
+}
+
+.placeholder-button {
+  display: inline-block;
+  min-width: 220px;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 2px solid rgba(127, 184, 220, 0.95);
+  background: #f7fbff;
+  color: #0f3044;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+.placeholder-button:hover {
+  background: #e2f1ff;
+}
+
+.placeholder-button-secondary {
+  background: #d6e9ff;
+  border-color: #91b9e0;
+}
+.placeholder-button-secondary:hover {
+  background: #c4ddff;
+}

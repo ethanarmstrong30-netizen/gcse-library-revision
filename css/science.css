@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Verdana', sans-serif;
+  background: radial-gradient(circle at top, #e2f5ff 0%, #bdd9f5 70%);
+  color: #0f3044;
+}
+.page-header {
+  padding: 24px;
+  background: rgba(10, 72, 114, 0.12);
+  text-align: center;
+}
+.header-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.header-links a {
+  text-decoration: none;
+  color: #0f3044;
+  padding: 8px 12px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 8px;
+}
+.subject-page {
+  max-width: 960px;
+  margin: auto;
+  padding: 24px;
+}
+.subject-section {
+  margin-bottom: 26px;
+  padding: 20px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.88);
+}
+.placeholders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.placeholder {
+  padding: 16px;
+  border: 2px dashed #7fb8dc;
+  border-radius: 12px;
+  min-height: 140px;
+}
+.books-placeholder {
+  margin-top: 18px;
+}
+.books-placeholder textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 10px;
+  border: 1px solid #9ec3e5;
+  padding: 12px;
+  font-size: 1rem;
+}
+@media (max-width: 780px) {
+  .placeholders {
+    grid-template-columns: 1fr;
+  }
+}
+
+.book-list {
+  min-height: 120px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.92);
+  list-style: none;
+  margin: 0;
+}
+
+.placeholder-iframe {
+  width: 100%;
+  min-height: 180px;
+  border: 2px dashed rgba(127, 184, 220, 0.95);
+  border-radius: 12px;
+  background: #f7fbff;
+}
+
+.placeholder-button {
+  display: inline-block;
+  min-width: 220px;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 2px solid rgba(127, 184, 220, 0.95);
+  background: #f7fbff;
+  color: #0f3044;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+.placeholder-button:hover {
+  background: #e2f1ff;
+}
+
+.placeholder-button-secondary {
+  background: #d6e9ff;
+  border-color: #91b9e0;
+}
+.placeholder-button-secondary:hover {
+  background: #c4ddff;
+}

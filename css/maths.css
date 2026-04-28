@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #f4f9ff 0%, #d8e8ff 100%);
+  color: #152d4d;
+}
+.page-header {
+  text-align: center;
+  padding: 26px 20px;
+  background: #283f6f;
+  color: white;
+}
+.header-links {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+.header-links a {
+  color: white;
+  text-decoration: none;
+  background: rgba(255,255,255,0.16);
+  padding: 10px 14px;
+  border-radius: 10px;
+}
+.subject-page {
+  max-width: 940px;
+  margin: auto;
+  padding: 24px;
+}
+.subject-section {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(21,45,77,0.1);
+  padding: 22px;
+  margin-bottom: 22px;
+}
+.placeholders {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.placeholder {
+  border: 2px dashed #5679b9;
+  border-radius: 14px;
+  padding: 16px;
+}
+.books-placeholder textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 12px;
+  border: 1px solid #aac4ff;
+  padding: 12px;
+}
+@media (max-width: 760px) {
+  .placeholders {
+    grid-template-columns: 1fr;
+  }
+}
+
+.book-list {
+  min-height: 120px;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(255,255,255,0.92);
+  list-style: none;
+  margin: 0;
+}
+
+.placeholder-iframe {
+  width: 100%;
+  min-height: 180px;
+  border: 2px dashed rgba(127, 184, 220, 0.95);
+  border-radius: 12px;
+  background: #f7fbff;
+}
+
+.placeholder-button {
+  display: inline-block;
+  min-width: 220px;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 2px solid rgba(127, 184, 220, 0.95);
+  background: #f7fbff;
+  color: #0f3044;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+.placeholder-button:hover {
+  background: #e2f1ff;
+}
+
+.placeholder-button-secondary {
+  background: #d6e9ff;
+  border-color: #91b9e0;
+}
+.placeholder-button-secondary:hover {
+  background: #c4ddff;
+}

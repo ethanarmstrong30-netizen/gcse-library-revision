@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f5f7;
+  color: #1f3040;
+}
+.topbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 20px 32px;
+  background: #243b55;
+}
+.topbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+}
+.subject-list {
+  max-width: 980px;
+  margin: auto;
+  padding: 32px;
+}
+.subject-list h1 {
+  margin-bottom: 12px;
+}
+.subject-list nav ul {
+  list-style: none;
+  padding: 0;
+}
+.subject-list nav li {
+  margin: 10px 0;
+}
+.subject-list nav a {
+  color: #243b55;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+.subject-list nav a:hover {
+  text-decoration: underline;
+}
+
+.placeholder-iframe {
+  width: 100%;
+  min-height: 180px;
+  border: 2px dashed rgba(127, 184, 220, 0.95);
+  border-radius: 12px;
+  background: #f7fbff;
+}
+
+.placeholder-button {
+  display: inline-block;
+  min-width: 220px;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 2px solid rgba(127, 184, 220, 0.95);
+  background: #f7fbff;
+  color: #0f3044;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+.placeholder-button:hover {
+  background: #e2f1ff;
+}
+
+.placeholder-button-secondary {
+  background: #d6e9ff;
+  border-color: #91b9e0;
+}
+.placeholder-button-secondary:hover {
+  background: #c4ddff;
+}
